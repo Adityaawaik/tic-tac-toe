@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Montserrat:ital,wght@0,200;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: white;
+}
+
+#mainheading {
+
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.gameouterlayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameinnerlayout {
+    text-align: center;
+    height: 600px;
+    width: 450px;
+    background-color: RGB(39, 76, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 20px solid burlywood;
+}
+
+.mainlayout {
+    line-height: 5rem;
+}
+
+#start {
+    border: none;
+    color: white;
+    background-color: RGB(39, 76, 67);
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px dotted transparent;
+    width: 15vh;
+    border-radius: 2rem;
+}
+#start:hover{
+    border: 2px dotted white;
+}
+
+.container {
+    display: none;
+    height: 550px;
+    width: 307px;
+}
+
+#subheading {
+    margin-bottom: 3rem;
+    font-size: 40px;
+    color: white;
+}
+
+.gameboxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.boxes {
+    width: 100px;
+    height: 100px;
+    background-color: RGB(39, 76, 67);
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+#box1,
+#box2,
+#box4,
+#box5 {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#box3,
+#box6 {
+    border-bottom: 2px solid white;
+}
+
+#box7,
+#box8 {
+    border-right: 2px solid white;
+}
+
+.winner {
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.3rem;
+    width: 38vh;
+}
+.gamebuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#reset, #newgame{
+    width: 14vw;
+    height: 7vh;
+    font-size: 1.3rem;
+    background-color:RGB(39, 76, 67);
+    border: 2px dotted transparent;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+#reset:hover{
+    border: 2px dotted white;
+}
+#newgame:hover{
+    border: 2px dotted white;
+}
