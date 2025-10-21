@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+.game-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+}
+
+.game-layout-container {
+  width: 500px;
+  height: 650px;
+
+  background-color: #264941;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.game-layout-container:hover {
+  box-shadow: 1px 1px 6px 0px white;
+}
+
+.game-layout-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.start-game-btn,
+.reset-game {
+  display: flex;
+  justify-content: center;
+}
+
+.start-game {
+  width: 100px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  margin: 1rem 0;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.start-game:hover,
+.go-for-the-battle:hover,
+.reset:hover {
+  background: rgba(0, 0, 0, 0.085);
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 9px 2px white;
+  cursor: pointer;
+}
+
+.player-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.game-players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+input {
+  outline: none;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  border: none;
+}
+
+input:hover {
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+.competitionMsg {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.battleBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.required-field {
+  margin: 2rem 0;
+}
+
+.go-for-the-battle {
+  border: none;
+  width: 250px;
+  font-size: 1.2rem;
+  align-self: center;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.sub-heading {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.player-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.player-turn {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.game-boxes {
+  width: 310px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gameBox {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  background-color: #264941;
+  border: none;
+  color: white;
+}
+
+.gameBox:hover {
+  background-color: rgba(0, 0, 0, 0.21);
+}
+
+#box-1,
+#box-2,
+#box-4,
+#box-5 {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#box-3,
+#box-6 {
+  border-bottom: 1px solid white;
+}
+
+#box-7,
+#box-8 {
+  border-right: 1px solid white;
+}
+
+.winnerMsg {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.reset {
+  width: 150px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  margin: 1rem 0;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.player-one-name,
+.player-two-name {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+}
